@@ -5,17 +5,20 @@ import Spiner from '../spiner/spiner'
 import ErrorMessage from '../errorMessage/errorMessage'
 
 export default class RandomChar extends Component {
-
-    constructor(){
-        super();
-        this.updateChar();
-    }
-
     service = new Service();
     state = {
         char: {},
         loading: true,
         error: false
+    }
+
+    componentDidMount(){
+        this.updateChar();
+        this.timerId = setInterval(this.updateChar, 10500);
+    }
+
+    componentWillUnmount(){
+        clearInterval(this.timerId);
     }
 
     onCharLoaded = (char) => {
@@ -32,9 +35,9 @@ export default class RandomChar extends Component {
         })
     }
 
-    updateChar(){
-        //const id = Math.floor(Math.random()*140+25); //25-140
-        const id = 1300000;
+    updateChar = () =>{
+        const id = Math.floor(Math.random()*140+25); //25-140
+        //const id = 1300000;
         this.service.getCharacter(id)
             .then(this.onCharLoaded)
             .catch(this.onError);
@@ -59,7 +62,7 @@ export default class RandomChar extends Component {
 }
 
 const View = ({char}) => {
-    const {name, gender, born, dided, culture} = char;
+    const {name, gender, born, died, culture} = char;
     return (
         <>
             <h4>Random Character: {name}</h4>
@@ -74,7 +77,7 @@ const View = ({char}) => {
                     </li>
                     <li className="list-group-item d-flex justify-content-between">
                         <span className="term">Died </span>
-                        <span>{dided}</span>
+                        <span>{died}</span>
                     </li>
                     <li className="list-group-item d-flex justify-content-between">
                         <span className="term">Culture </span>

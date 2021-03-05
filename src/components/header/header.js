@@ -42,7 +42,7 @@ const Header = () => {
                     <a href="#">Houses</a>
                 </li>
                 <li>
-                    <a href="#">Books</a>   
+                    <a href="#">Books</a>
                 </li>
             </HeaderLinks>
         </HeaderBlock>
