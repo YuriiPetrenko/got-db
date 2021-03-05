@@ -1,16 +1,16 @@
 {
   "main.css": "/got-db/static/css/main.8e0ec29d.chunk.css",
-  "main.js": "/got-db/static/js/main.9b176987.chunk.js",
-  "main.js.map": "/got-db/static/js/main.9b176987.chunk.js.map",
+  "main.js": "/got-db/static/js/main.aad9241f.chunk.js",
+  "main.js.map": "/got-db/static/js/main.aad9241f.chunk.js.map",
   "static/css/1.e43c8ff6.chunk.css": "/got-db/static/css/1.e43c8ff6.chunk.css",
-  "static/js/1.6a0655a8.chunk.js": "/got-db/static/js/1.6a0655a8.chunk.js",
-  "static/js/1.6a0655a8.chunk.js.map": "/got-db/static/js/1.6a0655a8.chunk.js.map",
+  "static/js/1.adf605f1.chunk.js": "/got-db/static/js/1.adf605f1.chunk.js",
+  "static/js/1.adf605f1.chunk.js.map": "/got-db/static/js/1.adf605f1.chunk.js.map",
   "runtime~main.js": "/got-db/static/js/runtime~main.09f59aaa.js",
   "runtime~main.js.map": "/got-db/static/js/runtime~main.09f59aaa.js.map",
   "static/media/err.jpg": "/got-db/static/media/err.22389cf4.jpg",
   "static/css/main.8e0ec29d.chunk.css.map": "/got-db/static/css/main.8e0ec29d.chunk.css.map",
   "static/css/1.e43c8ff6.chunk.css.map": "/got-db/static/css/1.e43c8ff6.chunk.css.map",
   "index.html": "/got-db/index.html",
-  "precache-manifest.a5e09e5c2ae3932d69f50f72ebd08a86.js": "/got-db/precache-manifest.a5e09e5c2ae3932d69f50f72ebd08a86.js",
+  "precache-manifest.873a83e9f8d4731ea7d483c7ce4ac84a.js": "/got-db/precache-manifest.873a83e9f8d4731ea7d483c7ce4ac84a.js",
   "service-worker.js": "/got-db/service-worker.js"
 }
