@@ -25,6 +25,7 @@ export default class CharDetails extends Component {
                     char
                 })
             })
+            //this.foo.bar = 0;
     }
 
     componentDidUpdate(prevProps){
