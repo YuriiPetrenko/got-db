@@ -28,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - HTML
 - CSS
 - JavaScript
-- React (Class Components, Lifecycle methods, Styled components )
+- React (Router ,Class Components, Lifecycle methods, Styled components )
 - Ajax
 
 ### Demo (GitHub pages):
